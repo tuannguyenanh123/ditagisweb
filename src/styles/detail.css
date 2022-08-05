@@ -1,0 +1,62 @@
+.img-slider{
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: calc(50vh - 80px);
+}
+.content{
+    padding: 60px 80px;
+}
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1080px){
+    .content{
+        padding: 40px 60px !important;
+    }
+  .content .title{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .price{
+    align-self: start;
+  }
+}
+
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 912px){
+    .sub-title{
+        align-self: start;
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+
+    .content{
+        padding: 30px 50px !important;
+    }
+    .nameProduct{
+        font-size: 3rem !important;
+    }
+    .price{
+        font-size: 4rem !important;
+    }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+    
+    .content{
+        padding: 20px 30px !important;
+    }
+    .nameProduct{
+        font-size: 2rem !important;
+    }
+    .price{
+        font-size: 3rem !important;
+    }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    
+}

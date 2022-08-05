@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  max-width: 100%;
+  min-height: 100vh;
+  background: white ;
+}
+
+/* --------------------HEADER----------------------- */
+@import url('./styles/Header.css');
+/* ----------------------FILTER--------------------- */
+@import url('./styles/filter.css');
+/* ----------------------PRODUCTS----------------- */
+@import url('./styles/products.css');
+/* ----------------------DETAIL-------------------- */
+@import url('./styles/detail.css');

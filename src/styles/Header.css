@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    height: 80px;
+}
+.header .text--love{
+    color: #FF0066;
+}
+.header .img--logo{
+    object-fit: contain;
+    pointer-events: none;
+    width: 100%;
+    flex: 1;
+    height: auto;
+    max-width: 50px;
+}
+.header .text--logo{
+    flex: 9;
+}
+
+@media screen and (max-width: 1080px){
+    
+  }
+  /*Ipad dọc(768 x 1024)*/
+  @media screen and (max-width: 792px){
+   
+  }
+  /*Tablet nhỏ(480 x 640)*/
+  @media screen and (max-width: 480px){
+     .header{
+        padding: 1rem !important;
+     }
+     
+  }
+  @media screen and (max-width: 420px){
+    .header{
+       padding: .5rem !important;
+       /* padding-right: 0.5rem !important; */
+    }
+    
+ }
+ @media screen and (max-width: 360px){
+    .header{
+       padding: 1.2rem !important;
+       padding-right: 0 !important;
+    }
+    
+ }
+  /*Smart phone nhỏ*/
+  @media screen and (max-width: 240px){
+      
+  }
